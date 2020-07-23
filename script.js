@@ -1,0 +1,1 @@
+const logInButton = getElementById(logInButton);
