@@ -21,6 +21,46 @@
                 <button id="logInButton" class="btn btn-success  text-uppercase">log in</button>
             </div>
     </div>
+    <div id="transitionArea" class="container p-5 text-uppercase text-white">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="text-center deposit submitArea p-5 mb-5">
+                    <h3 class="p-3">deposit</h3>
+                    <h2>$<span id="addDeposit">00</span></h2>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="text-center withdraw submitArea p-5 mb-5">
+                    <h3 class="p-3">withdraw</h3>
+                    <h2>$<span id="addWithdraw">00</span></h2>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="text-center balance submitArea p-5 mb-5">
+                    <h3 class="p-3">balance</h3>
+                    <h2>$<span id="currentBalance">1000</span></h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="submitArea mb-5">
+                    <h5 class="text-uppercase color-white pb-2">deposit</h5>
+                    <input id="depositAmount" type="text" class="form-control" placeholder="$ amount deposit">
+                    <br>
+                    <button id="depositBtn" class="btn btn-success text-uppercase">deposit</button>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="submitArea mb-5">
+                    <h5 class="text-uppercase color-white pb-2">withdraw</h5>
+                    <input id="withdrawAmount" type="text" class="form-control" placeholder="$ amount withdraw">
+                    <br>
+                    <button id="withdrawBtn" class="btn btn-success text-uppercase">withdraw</button>
+                </div>
+            </div>
+        </div>
+    </div>
     
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"

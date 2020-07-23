@@ -5,5 +5,20 @@ body{
 .submitArea{
     padding: 70px;
     box-shadow: 5px 5px 15px gray;
-    border-radius: 8px;
+    border-radius: 10px;
+}
+#transitionArea{
+    display: none;
+}
+.deposit{
+    background-color: lightseagreen;
+
+}
+.withdraw{
+    background-color: lightsalmon;
+
+}
+.balance{
+    background-color: orange;
+
 }
